@@ -1,6 +1,4 @@
-# 📡 APRS_Wx_v3 — Powered by Python
-
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) **(Windows Only)**
+# 📡 APRS_Wx_v3 — Powered by Python ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) **(Windows Only)**
 
 ## 🧠 Zero Hardware. Zero Hardcoding. Zero Hassle.
 
