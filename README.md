@@ -1,5 +1,7 @@
 # 📡 APRS_Wx_v3 — Powered by Python ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) **(Windows Only)**
 
+### *Single  Stations version* [APRS_Wx_v2](https://github.com/rn-ksheer/APRS_Wx_v2)
+
 ## 🧠 Zero Hardware. Zero Hardcoding. Zero Hassle.
 
 No sketches, no soldering, and absolutely **no library dependencies!** 😎
