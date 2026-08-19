@@ -62,6 +62,29 @@ A common transmission interval is used for both stations.
 
 ---
 
+## ⚙️ Configuration Steps
+
+1. 📦 **Download** the `aprs.zip` folder from this repository and **extract** it to any location on your system.  
+         You’ll find both **`aprs.exe`** and **`config.ini`** in the same folder.
+   
+   ![extract2](https://github.com/user-attachments/assets/9c8de663-d42a-48d6-9d38-940a3818e5d0)
+3. 📝 Open **`config.ini`** in your favorite text editor (e.g. Notepad, VS Code, Notepad++).
+4. ✏️ Fill in the following fields for both stations:
+   - 📍 **Latitude** & **Longitude**
+   - 📡 **User Callsign without SSID**
+   - 🔐 **APRS Passcode**
+   - ⏱️ **Time Interval (in minutes)**
+5. 💾 Save the file.
+6. 🚀 Run **`aprs.exe`** — just like any other software!
+
+   
+
+
+> [!NOTE]
+> Once your callsign & passcode are verified, your WX station will automatically appear on [**aprs.fi**](https://aprs.fi).
+
+---
+
 ## 📝 `config.ini` Example
 
 ```ini
@@ -101,3 +124,30 @@ pass-2 = 00000
 # time interval in minutes (5-30)
 # Recommended: 20
 interval = 20
+```
+
+
+---
+### 🚀 Add to Startup (Windows)
+
+To automatically start **APRS_Wx_v2** whenever you log into Windows:
+
+1. Create a folder on your **C:** drive (for example, `C:\APRS`) and move the extracted **`aprs.exe`** and **`config.ini`** files into this folder.
+2. Right-click **`aprs.exe`** and select **Create shortcut**.
+   - If Windows asks to place the shortcut on the desktop instead, click **Yes**.
+   - A shortcut named **`aprs.exe - Shortcut`** (or similar) will be created on your desktop.
+3. Open the Windows Startup folder:
+   - Press **Win + R**
+   - Type:
+     ```text
+     shell:startup
+     ```
+   - Press **Enter**.
+
+4. Copy the shortcut from your desktop and paste it into the **Startup** folder.
+5. Restart your computer. **APRS_Wx_v2** will automatically launch when you log in.
+6. After restarting, open **[aprs.fi](https://aprs.fi)** to verify that your weather station data is being uploaded successfully.
+
+> **Note:** It is recommended to place a **shortcut** in the Startup folder rather than moving the actual `aprs.exe` file. This keeps the program in its original location while allowing Windows to launch it automatically at login.
+
+---
